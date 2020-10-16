@@ -32,6 +32,13 @@ body{
 #content{
     padding: 10px;
     margin: 10px 1%;
+}
+
+#content p{
+    column-count: 3;
+    column-gap: 50px;
+    column-rule: 1px solid #ccc;
+    text-align: justify;
 
 }
   
