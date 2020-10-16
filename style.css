@@ -9,6 +9,23 @@ body{
     padding: 20px;
 }
 
+#banner{
+    max-height: 300px;
+    overflow: hidden;
+    margin: 1%;
+    position: relative;
+} 
+
+#banner h2{
+    position: absolute;
+    margin: 0;
+    top: 30px;
+    width: 100%;
+    text-transform: capitalize;
+    text-align: center;
+    color: #fff;
+}
+
 .service h2, .service p{
     color: #999;
     margin: 10px 0;
